@@ -3,8 +3,10 @@ package com.Steviegt6.steviesthings;
 import com.Steviegt6.steviesthings.init.ModRecipes;
 import com.Steviegt6.steviesthings.proxy.CommonProxy;
 import com.Steviegt6.steviesthings.util.Reference;
+import com.Steviegt6.steviesthings.util.handlers.LoginEventHandler;
 import com.Steviegt6.steviesthings.world.ModWorldGen;
 
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -40,7 +42,8 @@ public class Main {
 	@EventHandler
 	public static void PostInit(FMLPostInitializationEvent event)
 	{
-		
+		MinecraftForge.EVENT_BUS.register(new LoginEventHandler());
+		proxy.postInit(event);
 	}
-	
+
 }
