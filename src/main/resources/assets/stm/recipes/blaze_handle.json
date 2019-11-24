@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+        "item": "minecraft:blaze_rod"
+    },
+    {
+        "item": "minecraft:stick"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "stm:blaze_handle",
+        "count": 1
+    }
+}

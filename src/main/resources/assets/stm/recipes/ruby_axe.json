@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "RR",
+        "RB",
+        " B"
+    ],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "stm:ruby"
+        },
+        "B":
+        {
+            "item": "stm:blaze_handle"
+        }
+    },
+   
+    "result":
+    {
+        "item": "stm:ruby_axe",
+        "count": 1
+    }
+}
