@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+        "item": "minecraft:wooden_hoe"
+    },
+    {
+        "item": "minecraft:cobblestone"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "stm:ruin_hoe",
+        "count": 1
+    }
+}

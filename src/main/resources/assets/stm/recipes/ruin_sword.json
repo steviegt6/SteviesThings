@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+        "item": "minecraft:wooden_sword"
+    },
+    {
+        "item": "minecraft:cobblestone"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "stm:ruin_sword",
+        "count": 1
+    }
+}

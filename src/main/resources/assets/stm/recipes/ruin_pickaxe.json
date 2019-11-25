@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+        "item": "minecraft:wooden_pickaxe"
+    },
+    {
+        "item": "minecraft:cobblestone"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "stm:ruin_pickaxe",
+        "count": 1
+    }
+}
