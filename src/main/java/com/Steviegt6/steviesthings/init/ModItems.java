@@ -33,6 +33,18 @@ public class ModItems
 	public static final ToolMaterial MATERIAL_RUIN = EnumHelper.addToolMaterial("material_ruin", 0, 45, 1.5f, 0.0f, 14); //        WOOD(0, 59, 2.0F, 0.0F, 15),
 	public static final ArmorMaterial ARMOR_MATERIAL_WOOD = EnumHelper.addArmorMaterial("armor_material_wood", Reference.MOD_ID + ":oak_wood", 4, new int[] {1, 2, 2, 1}, 13, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f);
 																										//LEATHER("leather", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F),
+	public static final ArmorMaterial ARMOR_MATERIAL_DARK_WOOD = EnumHelper.addArmorMaterial("armor_material_dark_wood", Reference.MOD_ID + ":dark_oak_wood", 4, new int[] {1, 2, 2, 1}, 13, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f);
+	public static final ArmorMaterial ARMOR_MATERIAL_ACACIA_WOOD = EnumHelper.addArmorMaterial("armor_material_acacia_wood", Reference.MOD_ID + ":acacia_wood", 4, new int[] {1, 2, 2, 1}, 13, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f);
+	public static final ArmorMaterial ARMOR_MATERIAL_BIRCH_WOOD = EnumHelper.addArmorMaterial("armor_material_birch_wood", Reference.MOD_ID + ":birch_wood", 4, new int[] {1, 2, 2, 1}, 13, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f);
+	public static final ArmorMaterial ARMOR_MATERIAL_JUNGLE_WOOD = EnumHelper.addArmorMaterial("armor_material_jungle_wood", Reference.MOD_ID + ":jungle_wood", 4, new int[] {1, 2, 2, 1}, 13, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f);
+	public static final ArmorMaterial ARMOR_MATERIAL_SPRUCE_WOOD = EnumHelper.addArmorMaterial("armor_material_spruce_wood", Reference.MOD_ID + ":spruce_wood", 4, new int[] {1, 2, 2, 1}, 13, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f);
+	
+	public static final ArmorMaterial ARMOR_MATERIAL_STONE = EnumHelper.addArmorMaterial("armor_material_stone", Reference.MOD_ID + ":stone", 4, new int[] {2, 3, 2, 1}, 13, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f);
+	public static final ArmorMaterial ARMOR_MATERIAL_COBBLE = EnumHelper.addArmorMaterial("armor_material_cobble", Reference.MOD_ID + ":cobble", 4, new int[] {2, 2, 2, 1}, 13, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f);
+	
+	public static final ArmorMaterial ARMOR_MATERIAL_RUBY = EnumHelper.addArmorMaterial("armor_material_ruby", Reference.MOD_ID + ":ruby", 4, new int[] {4, 7, 9, 4}, 13, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.5f);
+	
+	
 	public static final Item BLAZE_HANDLE = new ItemBase("blaze_handle");
 	public static final Item RUBY = new ItemBase("ruby");
 	
@@ -53,4 +65,43 @@ public class ModItems
 	public static final Item OAK_WOOD_LEGGINGS = new ArmorBase("oak_wood_leggings", ARMOR_MATERIAL_WOOD, 2, EntityEquipmentSlot.LEGS);
 	public static final Item OAK_WOOD_BOOTS = new ArmorBase("oak_wood_boots", ARMOR_MATERIAL_WOOD, 1, EntityEquipmentSlot.FEET);
 	
+	public static final Item ACACIA_WOOD_HELMET = new ArmorBase("acacia_wood_helmet", ARMOR_MATERIAL_ACACIA_WOOD, 1, EntityEquipmentSlot.HEAD);
+	public static final Item ACIACA_WOOD_CHESTPLATE = new ArmorBase("acacia_wood_chestplate", ARMOR_MATERIAL_ACACIA_WOOD, 1, EntityEquipmentSlot.CHEST);
+	public static final Item ACACIA_WOOD_LEGGINGS = new ArmorBase("acacia_wood_leggings", ARMOR_MATERIAL_ACACIA_WOOD, 2, EntityEquipmentSlot.LEGS);
+	public static final Item ACACIA_WOOD_BOOTS = new ArmorBase("acacia_wood_boots", ARMOR_MATERIAL_ACACIA_WOOD, 1, EntityEquipmentSlot.FEET);
+	
+	public static final Item BIRCH_WOOD_HELMET = new ArmorBase("birch_wood_helmet", ARMOR_MATERIAL_BIRCH_WOOD, 1, EntityEquipmentSlot.HEAD);
+	public static final Item BIRCH_WOOD_CHESTPLATE = new ArmorBase("birch_wood_chestplate", ARMOR_MATERIAL_BIRCH_WOOD, 1, EntityEquipmentSlot.CHEST);
+	public static final Item BIRCH_WOOD_LEGGINGS = new ArmorBase("birch_wood_leggings", ARMOR_MATERIAL_BIRCH_WOOD, 2, EntityEquipmentSlot.LEGS);
+	public static final Item BIRCH_WOOD_BOOTS = new ArmorBase("birch_wood_boots", ARMOR_MATERIAL_BIRCH_WOOD, 1, EntityEquipmentSlot.FEET);
+	
+	public static final Item DARK_OAK_WOOD_HELMET = new ArmorBase("dark_oak_wood_helmet", ARMOR_MATERIAL_DARK_WOOD, 1, EntityEquipmentSlot.HEAD);
+	public static final Item DARK_OAK_WOOD_CHESTPLATE = new ArmorBase("dark_oak_wood_chestplate", ARMOR_MATERIAL_DARK_WOOD, 1, EntityEquipmentSlot.CHEST);
+	public static final Item DARK_OAK_WOOD_LEGGINGS = new ArmorBase("dark_oak_wood_leggings", ARMOR_MATERIAL_DARK_WOOD, 2, EntityEquipmentSlot.LEGS);
+	public static final Item DARK_OAK_WOOD_BOOTS = new ArmorBase("dark_oak_wood_boots", ARMOR_MATERIAL_DARK_WOOD, 1, EntityEquipmentSlot.FEET);
+	
+	public static final Item JUNGLE_WOOD_HELMET = new ArmorBase("jungle_wood_helmet", ARMOR_MATERIAL_JUNGLE_WOOD, 1, EntityEquipmentSlot.HEAD);
+	public static final Item JUNGLE_WOOD_CHESTPLATE = new ArmorBase("jungle_wood_chestplate", ARMOR_MATERIAL_JUNGLE_WOOD, 1, EntityEquipmentSlot.CHEST);
+	public static final Item JUNGLE_WOOD_LEGGINGS = new ArmorBase("jungle_wood_leggings", ARMOR_MATERIAL_JUNGLE_WOOD, 2, EntityEquipmentSlot.LEGS);
+	public static final Item JUNGLE_WOOD_BOOTS = new ArmorBase("jungle_wood_boots", ARMOR_MATERIAL_JUNGLE_WOOD, 1, EntityEquipmentSlot.FEET);
+
+	public static final Item SPRUCE_WOOD_HELMET = new ArmorBase("spruce_wood_helmet", ARMOR_MATERIAL_SPRUCE_WOOD, 1, EntityEquipmentSlot.HEAD);
+	public static final Item SPRUCE_WOOD_CHESTPLATE = new ArmorBase("spruce_wood_chestplate", ARMOR_MATERIAL_SPRUCE_WOOD, 1, EntityEquipmentSlot.CHEST);
+	public static final Item SPRUCE_WOOD_LEGGINGS = new ArmorBase("spruce_wood_leggings", ARMOR_MATERIAL_SPRUCE_WOOD, 2, EntityEquipmentSlot.LEGS);
+	public static final Item SPRUCE_WOOD_BOOTS = new ArmorBase("spruce_wood_boots", ARMOR_MATERIAL_SPRUCE_WOOD, 1, EntityEquipmentSlot.FEET);
+	
+	public static final Item STONE_HELMET = new ArmorBase("stone_helmet", ARMOR_MATERIAL_STONE, 1, EntityEquipmentSlot.HEAD);
+	public static final Item STONE_CHESTPLATE = new ArmorBase("stone_chestplate", ARMOR_MATERIAL_STONE, 1, EntityEquipmentSlot.CHEST);
+	public static final Item STONE_LEGGINGS = new ArmorBase("stone_leggings", ARMOR_MATERIAL_STONE, 2, EntityEquipmentSlot.LEGS);
+	public static final Item STONE_BOOTS = new ArmorBase("stone_boots", ARMOR_MATERIAL_STONE, 1, EntityEquipmentSlot.FEET);
+	
+	public static final Item COBBLE_HELMET = new ArmorBase("cobble_helmet", ARMOR_MATERIAL_COBBLE, 1, EntityEquipmentSlot.HEAD);
+	public static final Item COBBLE_CHESTPLATE = new ArmorBase("cobble_chestplate", ARMOR_MATERIAL_COBBLE, 1, EntityEquipmentSlot.CHEST);
+	public static final Item COBBLE_LEGGINGS = new ArmorBase("cobble_leggings", ARMOR_MATERIAL_COBBLE, 2, EntityEquipmentSlot.LEGS);
+	public static final Item COBBLE_BOOTS = new ArmorBase("cobble_boots", ARMOR_MATERIAL_COBBLE, 1, EntityEquipmentSlot.FEET);
+	
+	public static final Item RUBY_HELMET = new ArmorBase("ruby_helmet", ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.HEAD);
+	public static final Item RUBY_CHESTPLATE = new ArmorBase("ruby_chestplate", ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.CHEST);
+	public static final Item RUBY_LEGGINGS = new ArmorBase("ruby_leggings", ARMOR_MATERIAL_RUBY, 2, EntityEquipmentSlot.LEGS);
+	public static final Item RUBY_BOOTS = new ArmorBase("ruby_boots", ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.FEET);
 }

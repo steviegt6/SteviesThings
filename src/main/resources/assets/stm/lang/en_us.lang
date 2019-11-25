@@ -16,3 +16,43 @@ item.oak_wood_helmet.name=Wooden Helmet
 item.oak_wood_chestplate.name=Wooden Chestplate
 item.oak_wood_leggings.name=Wooden Leggings
 item.oak_wood_boots.name=Wooden Boots
+
+item.acacia_wood_helmet.name=Acacia Helmet
+item.acacia_wood_chestplate.name=Acacia Chestplate
+item.acacia_wood_leggings.name=Acacia Leggings
+item.acacia_wood_boots.name=Acacia Boots
+
+item.birch_wood_helmet.name=Birch Helmet
+item.birch_wood_chestplate.name=Birch Chestplate
+item.birch_wood_leggings.name=Birch Leggings
+item.birch_wood_boots.name=Birch Boots
+
+item.dark_oak_wood_helmet.name=Dark Oak Helmet
+item.dark_oak_wood_chestplate.name=Dark Oak Chestplate
+item.dark_oak_wood_leggings.name=Dark Oak Leggings
+item.dark_oak_wood_boots.name=Dark Oak Boots
+
+item.jungle_wood_helmet.name=Jungle Wood Helmet
+item.jungle_wood_chestplate.name=Jungle Wood Chestplate
+item.jungle_wood_leggings.name=Jungle Wood Leggings
+item.jungle_wood_boots.name=Jungle Wood Boots
+
+item.spruce_wood_helmet.name=Spruce Helmet
+item.spruce_wood_chestplate.name=Spruce Chestplate
+item.spruce_wood_leggings.name=Spruce Leggings
+item.spruce_wood_boots.name=Spruce Boots
+
+item.stone_helmet.name=Stone Helmet
+item.stone_chestplate.name=Stone Chestplate
+item.stone_leggings.name=Stone Leggings
+item.stone_boots.name=Stone Boots
+
+item.cobble_helmet.name=Cobble Helmet
+item.cobble_chestplate.name=Cobble Chestplate
+item.cobble_leggings.name=Cobble Leggings
+item.cobble_boots.name=Cobble Boots
+
+item.ruby_helmet.name=Ruby Helmet
+item.ruby_chestplate.name=Ruby Chestplate
+item.ruby_leggings.name=Ruby Leggings
+item.ruby_boots.name=Ruby Boots
