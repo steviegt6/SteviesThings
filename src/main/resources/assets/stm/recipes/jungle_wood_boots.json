@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:log",
+            "data": 3
+        }
+    },
+    "result": {
+        "item": "stm:jungle_wood_boots",
+        "count": 1
+    }
+}

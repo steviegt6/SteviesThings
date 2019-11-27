@@ -10,11 +10,12 @@
             "item": "minecraft:netherrack"
         },
         "C": {
-            "item": "minecraft:coal"
+            "item": "minecraft:coal",
+            "data": 0
         }
     },
     "result": {
         "item": "minecraft:nether_brick",
-        "count": 1
+        "count": 8
     }
 }

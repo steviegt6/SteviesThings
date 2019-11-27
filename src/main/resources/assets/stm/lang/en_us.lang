@@ -1,7 +1,35 @@
 item.blaze_handle.name=Blaze Handle
 item.ruby.name=Ruby
+
 tile.ruby_block.name=Block of Ruby
 tile.ruby_ore.name=Ruby Ore
+tile.netherrack_ruby_ore.name=Ruby-Infused Netherrack ore
+tile.stone_quartz_ore.name=Quartz-Infused Stone Ore
+tile.essence_infused_endstone.name=Ender-Infused End Stone
+
+item.steel_ingot.name=Steel Ingot
+item.steel_powder.name=Steel Dust
+
+item.steel_coated_iron_sword.name=Steel-Coated Sword
+item.steel_coated_iron_pickaxe.name=Steel-Coated Pick
+item.steel_coated_iron_axe.name=Steel-Coated Axe
+item.steel_coated_iron_spade.name=Steel-Coated Shovel
+item.steel_coated_iron_hoe.name=Steel-Coated Hoe
+
+tile.netherrack_iron_ore.name=Iron-Netherrack Ore
+tile.netherrack_diamond_ore.name=Diamond-Netherrack Ore
+tile.netherrack_coal_ore.name=Coal-Netherrack Ore
+tile.netherrack_gold_ore.name=Gold-Netherrack Ore
+
+item.essence_of_ender.name=Essence of Ender
+item.ender_handle.name=Ender Handle
+
+item.ender_sword.name=Ender-Infused Sword
+item.ender_pickaxe.name=Ender-Infused Pickaxe
+item.ender_axe.name=Ender-Infused Axe
+item.ender_spade.name=Ender-Infused Shovel
+item.ender_hoe.name=Ender-Infused Hoe
+
 item.ruby_sword.name=Ruby Sword
 item.ruby_pickaxe.name=Ruby Pickaxe
 item.ruby_axe.name=Ruby Axe

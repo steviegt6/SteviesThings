@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#C#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stonebrick",
+            "data": 0
+        },
+        "C": {
+            "item": "minecraft:coal",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "minecraft:stonebrick",
+        "data": 2,
+        "count": 8
+    }
+}

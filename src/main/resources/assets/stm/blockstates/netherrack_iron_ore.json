@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "normal": { "model": "stm:netherrack_iron_ore" }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+        "item": "minecraft:iron_shovel"
+    },
+    {
+        "item": "stm:steel_powder"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "stm:steel_coated_iron_spade",
+        "count": 1
+    }
+}

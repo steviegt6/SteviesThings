@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "RRR",
+        "R#R",
+        "RRR"
+    ],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "stm:ruby"
+        },
+        "#":
+        {
+            "item": "minecraft:diamond_boots"
+        }
+    },
+   
+    "result":
+    {
+        "item": "stm:ruby_boots",
+        "count": 1
+    }
+}

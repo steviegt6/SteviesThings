@@ -7,14 +7,16 @@
     ],
     "key": {
         "#": {
-            "item": "minecraft:fish"
+            "item": "minecraft:fish",
+            "data": 0
         },
         "C": {
-            "item": "minecraft:coal"
+            "item": "minecraft:coal",
+            "data": 0
         }
     },
     "result": {
         "item": "minecraft:cooked_fish",
-        "count": 1
+        "count": 8
     }
 }

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:log2",
+            "data": 1
+        }
+    },
+    "result": {
+        "item": "stm:dark_oak_wood_chestplate",
+        "count": 1
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#C#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:mutton"
+        },
+        "C": {
+            "item": "minecraft:coal",
+            "data": 0
+        }
+    },
+    "result": {
+        "item": "minecraft:cooked_mutton",
+        "count": 8
+    }
+}

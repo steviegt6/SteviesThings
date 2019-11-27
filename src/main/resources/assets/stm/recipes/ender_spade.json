@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "R",
+        "B",
+        "B"
+    ],
+   
+    "key":
+    {
+        "R":
+        {
+            "item": "stm:essence_of_ender"
+        },
+        "B":
+        {
+            "item": "stm:ender_handle"
+        }
+    },
+   
+    "result":
+    {
+        "item": "stm:ender_spade",
+        "count": 1
+    }
+}

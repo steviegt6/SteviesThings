@@ -1,6 +1,6 @@
 {
    "parent":"item/generated",
    "textures":{
-      "layer0":"stm:items/ruin_pickaxe"
+      "layer0":"stm:items/ruby_sword"
    }
 }

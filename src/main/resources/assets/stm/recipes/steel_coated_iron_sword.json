@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+        "item": "minecraft:iron_sword"
+    },
+    {
+        "item": "stm:steel_powder"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "stm:steel_coated_iron_sword",
+        "count": 1
+    }
+}

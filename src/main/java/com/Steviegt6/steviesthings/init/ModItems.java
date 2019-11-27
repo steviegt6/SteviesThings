@@ -29,8 +29,15 @@ public class ModItems
 
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
+	//Harvest, Uses, Efficiency, Damage, Enchantabiliy
+	
+	
 	public static final ToolMaterial MATERIAL_RUBY = EnumHelper.addToolMaterial("material_ruby", 3, 2400, 10.0f, 4.0f, 20);
 	public static final ToolMaterial MATERIAL_RUIN = EnumHelper.addToolMaterial("material_ruin", 0, 45, 1.5f, 0.0f, 14); //        WOOD(0, 59, 2.0F, 0.0F, 15),
+	//IRON(2, 250, 6.0F, 2.0F, 14),
+	public static final ToolMaterial MATERIAL_STEEL = EnumHelper.addToolMaterial("material_steel", 2, 375, 7.0f, 2.5f, 17);
+	public static final ToolMaterial MATERIAL_ENDER = EnumHelper.addToolMaterial("material_ender", 4, 5600, 13f, 6f, 35);
+	
 	public static final ArmorMaterial ARMOR_MATERIAL_WOOD = EnumHelper.addArmorMaterial("armor_material_wood", Reference.MOD_ID + ":oak_wood", 4, new int[] {1, 2, 2, 1}, 13, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f);
 																										//LEATHER("leather", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F),
 	public static final ArmorMaterial ARMOR_MATERIAL_DARK_WOOD = EnumHelper.addArmorMaterial("armor_material_dark_wood", Reference.MOD_ID + ":dark_oak_wood", 4, new int[] {1, 2, 2, 1}, 13, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0.0f);
@@ -45,8 +52,26 @@ public class ModItems
 	public static final ArmorMaterial ARMOR_MATERIAL_RUBY = EnumHelper.addArmorMaterial("armor_material_ruby", Reference.MOD_ID + ":ruby", 4, new int[] {4, 7, 9, 4}, 13, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.5f);
 	
 	
+	public static final Item ENDER_HANDLE = new ItemBase("ender_handle");
+	public static final Item ESSENCE_OF_ENDER = new ItemBase("essence_of_ender");
+	
+	public static final Item STEEL_INGOT = new ItemBase("steel_ingot");
+	public static final Item STEEL_POWDER = new ItemBase("steel_powder");
+	
 	public static final Item BLAZE_HANDLE = new ItemBase("blaze_handle");
 	public static final Item RUBY = new ItemBase("ruby");
+	
+	public static final ItemSword STEEL_COATED_IRON_SWORD = new ToolSword("steel_coated_iron_sword", MATERIAL_STEEL);
+	public static final ItemSpade STEEL_COATED_IRON_SHOVEL = new ToolSpade("steel_coated_iron_spade", MATERIAL_STEEL);
+	public static final ItemPickaxe STEEL_COATED_IRON_PICKAXE = new ToolPickaxe("steel_coated_iron_pickaxe", MATERIAL_STEEL);
+	public static final ItemAxe STEEL_COATED_IRON_AXE = new ToolAxe("steel_coated_iron_axe", MATERIAL_STEEL);
+	public static final ItemHoe STEEL_COATED_IRON_HOE = new ToolHoe("steel_coated_iron_hoe", MATERIAL_STEEL);
+	
+	public static final ItemSword ENDER_SWORD = new ToolSword("ender_sword", MATERIAL_ENDER);
+	public static final ItemSpade ENDER_SHOVEL = new ToolSpade("ender_spade", MATERIAL_ENDER);
+	public static final ItemPickaxe ENDER_PICKAXE = new ToolPickaxe("ender_pickaxe", MATERIAL_ENDER);
+	public static final ItemAxe ENDER_AXE = new ToolAxe("ender_axe", MATERIAL_ENDER);
+	public static final ItemHoe ENDER_HOE = new ToolHoe("ender_hoe", MATERIAL_ENDER);
 	
 	public static final ItemSword RUBY_SWORD = new ToolSword("ruby_sword", MATERIAL_RUBY);
 	public static final ItemSpade RUBY_SHOVEL = new ToolSpade("ruby_spade", MATERIAL_RUBY);

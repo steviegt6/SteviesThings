@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+        "item": "minecraft:end_rod"
+    },
+    {
+        "item": "stm:blaze_handle"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "stm:ender_handle",
+        "count": 1
+    }
+}

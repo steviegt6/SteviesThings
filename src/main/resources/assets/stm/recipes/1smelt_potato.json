@@ -10,11 +10,12 @@
             "item": "minecraft:potato"
         },
         "C": {
-            "item": "minecraft:coal"
+            "item": "minecraft:coal",
+            "data": 0
         }
     },
     "result": {
         "item": "minecraft:baked_potato",
-        "count": 1
+        "count": 8
     }
 }

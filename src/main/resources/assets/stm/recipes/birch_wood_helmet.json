@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:log",
+            "data": 2
+        }
+    },
+    "result": {
+        "item": "stm:birch_wood_helmet",
+        "count": 1
+    }
+}

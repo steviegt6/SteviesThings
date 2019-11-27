@@ -8,5 +8,5 @@ public class Reference {
 	public static final String ACCEPTED_VERSIONS = "[1.12.2]";
 	public static final String CLIENT_PROXY_CLASS = "com.Steviegt6.steviesthings.proxy.ClientProxy";
 	public static final String COMMON_PROXY_CLASS = "com.Steviegt6.steviesthings.proxy.CommonProxy";
-	
+
 }

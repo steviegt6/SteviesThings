@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+ 
+    "ingredients":
+    [
+ 
+    {
+        "item": "stm:steel_ingot"
+    }
+   
+    ],
+ 
+    "result":
+    {
+        "item": "stm:steel_powder",
+        "count": 2
+    }
+}

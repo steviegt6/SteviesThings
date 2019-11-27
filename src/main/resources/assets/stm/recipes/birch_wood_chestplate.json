@@ -1,20 +1,18 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
+        "# #",
         "###",
-        "#C#",
         "###"
     ],
     "key": {
         "#": {
-            "item": "minecraft:stone_bricks"
-        },
-        "C": {
-            "item": "minecraft:coal"
+            "item": "minecraft:log",
+            "data": 2
         }
     },
     "result": {
-        "item": "minecraft:cracked_stone_bricks",
+        "item": "stm:birch_wood_chestplate",
         "count": 1
     }
 }
