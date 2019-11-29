@@ -6,6 +6,7 @@ tile.ruby_ore.name=Ruby Ore
 tile.netherrack_ruby_ore.name=Ruby-Infused Netherrack ore
 tile.stone_quartz_ore.name=Quartz-Infused Stone Ore
 tile.essence_infused_endstone.name=Ender-Infused End Stone
+tile.end_stone_emerald_ore.name=Emerald-End Stone Ore
 
 item.steel_ingot.name=Steel Ingot
 item.steel_powder.name=Steel Dust

@@ -9,4 +9,6 @@ public class Reference {
 	public static final String CLIENT_PROXY_CLASS = "com.Steviegt6.steviesthings.proxy.ClientProxy";
 	public static final String COMMON_PROXY_CLASS = "com.Steviegt6.steviesthings.proxy.CommonProxy";
 
+	public static final int ENTITY_PALE_ZOMBIE = 1;
+	
 }

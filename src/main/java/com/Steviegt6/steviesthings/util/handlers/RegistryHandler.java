@@ -30,6 +30,7 @@ public class RegistryHandler
 		event.getRegistry().registerAll(ModBlocks.BLOCKS.toArray(new Block[0]));
 		
 	}
+
 	
 	@SubscribeEvent
 	public static void onModelRegister(ModelRegistryEvent event)
